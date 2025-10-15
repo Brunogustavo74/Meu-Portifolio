@@ -110,34 +110,26 @@ animation: text-move 6s infinite ease-out;
 }
 
 @keyframes text-move {
-
-0%,
-15% {
-margin-top: 0px;
+    0%,15%{
+        margin-top: -70px;
+    }
+    
+    25%,40%{
+        margin-top: 0px;
+    }
+    
+    50%,65%{
+        margin-top: -105px;
+    }
+    
+    75%,90%{
+        margin-top: 0px;
+    }
+    
+    100%{
+        margin-top: -70px;
+    }
 }
-
-25%,
-40% {
-margin-top: -70px;
-}
-
-50%,
-65% {
-margin-top: -140px;
-}
-
-75%,
-90% {
-margin-top: -70px;
-}
-
-100% {
-margin-top: 0px;
-}
-
-}
-
-
 
 .btn {
     color: white;
