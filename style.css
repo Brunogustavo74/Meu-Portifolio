@@ -111,7 +111,7 @@ animation: text-move 6s infinite ease-out;
 
 @keyframes text-move {
     0%,15%{
-        margin-top: -70px;
+        margin-top: -90px;
     }
     
     25%,40%{
@@ -127,7 +127,7 @@ animation: text-move 6s infinite ease-out;
     }
     
     100%{
-        margin-top: -70px;
+        margin-top: -90px;
     }
 }
 
