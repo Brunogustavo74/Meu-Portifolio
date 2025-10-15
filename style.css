@@ -110,7 +110,7 @@ section {
     animation: text-move 6s infinite ease-out;
 }
 
-@keyframes texto-move {
+@keyframes text-move {
     0%,
     15% {
         margin-top: 0px;
