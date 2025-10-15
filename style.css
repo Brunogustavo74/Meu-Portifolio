@@ -280,6 +280,7 @@ animation: text-move 6s infinite ease-out;
 .skills .content .col-right .bar {
     margin-bottom: 15px;
     padding: 10px;
+  border-radius: 20px;
 }
 
 .skills .content .col-right .bar .info {
@@ -287,11 +288,13 @@ animation: text-move 6s infinite ease-out;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 5px;
+  border-radius: 20px;
 }
 
 .skills .content .col-right .br .info span {
     font-size: 18px;
     font-weight: 500;
+  border-radius: 20px;
 }
 
 .skills .content .col-right .bar .line {
