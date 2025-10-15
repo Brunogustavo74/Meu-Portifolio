@@ -327,12 +327,12 @@ animation: text-move 6s infinite ease-out;
 }
 
 .skills .content .col-right .bar .python::before {
-    width: 85%;
+    width: 20%;
     background-color: blue;
 }
 
 .skills .content .col-right .bar .php::before {
-    width: 65%;
+    width: 0%;
     background-color: #6d7eb8;
 }
 
