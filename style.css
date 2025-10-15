@@ -247,7 +247,6 @@ animation: text-move 6s infinite ease-out;
     font-size: 1em;
 }
 
-/* Skills Section */
 
 .skills {
     background-color: black;
@@ -315,17 +314,17 @@ animation: text-move 6s infinite ease-out;
 }
 
 .skills .content .col-right .bar .html::before {
-    width: 95%;
+    width: 75%;
     background-color: #e45126;
 }
 
 .skills .content .col-right .bar .css::before {
-    width: 80%;
+    width: 75%;
     background-color: #0c73b8;
 }
 
 .skills .content .col-right .bar .javascript::before {
-    width: 80%;
+    width: 65%;
     background-color: #e3a324;
 }
 
@@ -338,8 +337,7 @@ animation: text-move 6s infinite ease-out;
     width: 0%;
     background-color: #6d7eb8;
 }
-
-/* Services */
+
 
 .services .content {
     display: flex;
@@ -400,7 +398,7 @@ animation: text-move 6s infinite ease-out;
     color: white;
 }
 
-/* Work */
+
 
 .work {
     background-color: #000016;
@@ -442,8 +440,7 @@ animation: text-move 6s infinite ease-out;
     transform: scale(1.2);
 }
 
-
-/* Contact */
+
 
 .contact .content {
     display: flex;
@@ -554,7 +551,7 @@ animation: text-move 6s infinite ease-out;
     background: #235bf6;
 }
 
-/* Footer */
+
 
 .footer {
     background: #000016;
@@ -678,7 +675,7 @@ animation: text-move 6s infinite ease-out;
         margin-top: 40px;
     }
     
-    /* Skills */
+  
     
     .skills .content {
         flex-direction: column;
