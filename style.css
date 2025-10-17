@@ -110,25 +110,17 @@ animation: text-move 6s infinite ease-out;
 }
 
 @keyframes text-move {
-    0%,15%{
-        margin-top: -90px;
-    }
-    
-    25%,40%{
-        margin-top: 0px;
-    }
-    
-    50%,65%{
-        margin-top: -105px;
-    }
-    
-    75%,90%{
-        margin-top: 0px;
-    }
-    
-    100%{
-        margin-top: -90px;
-    }
+    0%{margin-top: -5px;}
+    10%{margin-top: -5px;}
+    20%{margin-top: -65px;}
+    30%{margin-top: -65px;}
+    40%{margin-top: -130px;}
+    50%{margin-top: -130px;}
+    60%{margin-top: -65px;}
+    70%{margin-top: -65px;}
+    80%{margin-top: -130px;}
+    90%{margin-top: -130px;}
+    100%{margin-top: -5px;}
 }
 
 .btn {
@@ -328,16 +320,25 @@ animation: text-move 6s infinite ease-out;
     background-color: #e3a324;
 }
 
-.skills .content .col-right .bar .python::before {
+.skills .content .col-right .bar .React::before {
     width: 20%;
     background-color: blue;
+    animation: dev s infinite ease-in-out;
+}
+
+@keyframes dev{
+    0%{width: 1%;}
+    50%{width: 100%;}
+        100%{width: 1%;}
+    
 }
 
 .skills .content .col-right .bar .php::before {
     width: 0%;
     background-color: #6d7eb8;
 }
-
+
+
 
 .services .content {
     display: flex;
@@ -440,7 +441,8 @@ animation: text-move 6s infinite ease-out;
     transform: scale(1.2);
 }
 
-
+
+
 
 .contact .content {
     display: flex;
@@ -629,8 +631,8 @@ animation: text-move 6s infinite ease-out;
         background-size: 30px;
         background-repeat: no-repeat;
         width: 40px;
+        right: 10%;
         height: 40px;
-        right: 0;
         margin: 0 20px;
         cursor: pointer;
         transition: 0.3s ease;
