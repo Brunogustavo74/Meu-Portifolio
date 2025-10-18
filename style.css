@@ -269,7 +269,7 @@ animation: text-move 6s infinite ease-out;
 
 .skills .content .col-right {
     position: relative;
-    width: 80%;
+    width: 100%;
 }
 
 .skills .content .col-right .bar {
