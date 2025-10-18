@@ -325,7 +325,6 @@ animation: text-move 6s infinite ease-out;
 }
 
 .skills .content .col-right .bar .React::before {
-    width: 20%;
     background-color: blue;
     animation: dev 4s infinite ease-in-out;
 }
