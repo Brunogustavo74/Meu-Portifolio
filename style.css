@@ -13,6 +13,10 @@ body {
     overflow-x: hidden;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
 header {
     z-index: 889;
     position: fixed;
@@ -414,8 +418,9 @@ animation: text-move 6s infinite ease-out;
 }
 
 .work .content .card {
-    width: 340px;
+    width: 100%;
     margin: 15px;
+ 
 }
 
 .work .content .card .card-img {
@@ -423,7 +428,8 @@ animation: text-move 6s infinite ease-out;
     width: 100%;
     height: 260px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 20px;
+       
 }
 
 .work .content .card .card-img img {
@@ -433,7 +439,7 @@ animation: text-move 6s infinite ease-out;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: 0.3s linear;
 }
 
@@ -591,23 +597,43 @@ animation: text-move 6s infinite ease-out;
     }
     
     header .navigation {
-        display: none;
+        display:none;
+        animation: nave1 0.3s;
+        transition: 1s;
+    }
+    
+      @keyframes nave1{
+        
+        from{right: -0%; display: none;}
+        to{right: -40%;}
+        
     }
     
     .navigation.active {
         z-index: 889;
         position: fixed;
         background-color: white;
+        display: flex;
         top: 0;
         right: 0;
-        width: 380px;
-        height: 100%;
+        width: 30%;
+        height: 50%;
+        border-radius: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
-        transition: 0.3s ease;
+        animation: nave 1s;
+        transition: 0.3s;
+        
+    }
+    
+    @keyframes nave{
+        
+        from{right: -40%;}
+        to{right: 0;}
+        
     }
     
     header .navigation a {
@@ -631,10 +657,11 @@ animation: text-move 6s infinite ease-out;
         background-size: 30px;
         background-repeat: no-repeat;
         width: 40px;
-        right: 10%;
+        right: 0%;
         height: 40px;
         margin: 0 20px;
         cursor: pointer;
+        transform: rotate(0deg);
         transition: 0.3s ease;
     }
     
@@ -644,6 +671,7 @@ animation: text-move 6s infinite ease-out;
         background-repeat: no-repeat;
         background-position: center;
         background-size: 25px;
+        transform: rotate(90deg);
         transition: 0.3s ease;
         filter: invert(1);
     }
