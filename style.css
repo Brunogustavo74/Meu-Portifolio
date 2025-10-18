@@ -207,10 +207,14 @@ animation: text-move 6s infinite ease-out;
     margin-top: 20px;
 }
 
+.about .content .col-left {
+    position: relative;
+    width: 45%;
+}
 
 .about .content .col-right {
     position: relative;
-    width: 100%;
+    width: 50%;
 }
 
 .about .content .col-left .img-card {
@@ -334,7 +338,7 @@ animation: text-move 6s infinite ease-out;
 
 .skills .content .col-right .bar .Bootstrap::before {
     width: 90%;
-    background-color: #7B00DC;
+    background-color: #6d7eb8;
 }
 
 
