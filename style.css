@@ -207,14 +207,10 @@ animation: text-move 6s infinite ease-out;
     margin-top: 20px;
 }
 
-.about .content .col-left {
-    position: relative;
-    width: 45%;
-}
 
 .about .content .col-right {
     position: relative;
-    width: 50%;
+    width: 100%;
 }
 
 .about .content .col-left .img-card {
